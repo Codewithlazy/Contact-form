@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap');
+        body{
+            background-image: url(https://images.pexels.com/photos/1612353/pexels-photo-1612353.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        
+        }
+        .container{
+            width: 50% ;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #ffffff6e;
+            border-radius: 8px;
+            box-shadow: 3px 3px 8px 0px;
+        }
+        form{
+            display: grid;
+        }
+        input,textarea{
+            border: #ccc;
+            border-radius: 6px;
+            padding: 10px;
+            font-family: sans-serif;
+            outline: none;
+        }
+
+        h1{
+            text-align: center; 
+        }
+        .submit{
+            background-color: #914b4b;
+        }
+        input,textarea{
+            background-color: rgba(255, 255, 255, 0.563);
+        }
+        .tag{
+            font-family: Open Sans;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="post">
+            <h1>CONTACT US</h1>
+            <label for="text" class="tag">Name</label>
+            <input type="text" required>
+            <label for="email"class="tag">Email</label>
+            <input type="email" required>
+            <label for="message" class="tag">Message</label>
+            <textarea name="message" id="" cols="30" rows="4"></textarea>
+            <input type="submit" style="margin-top: 10px;" class="submit">
+        </form>
+    </div>  
+</body>
+</html>
